@@ -15,3 +15,7 @@
 .baseline {
   stroke-dasharray: 4, 4;
 }
+
+tfoot {
+    font-weight: bold;
+}

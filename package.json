@@ -1,5 +1,6 @@
 {
   "name": "mortgage-calculator",
+  "homepage": "http://mungell.github.io/mortgage-calculator",
   "version": "0.1.0",
   "dependencies": {
     "bootstrap": "^5.2.3",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,6 +35,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^23.6.0",
+    "gh-pages": "^5.0.0",
     "jest": "^23.6.0"
   },
   "babel": {
