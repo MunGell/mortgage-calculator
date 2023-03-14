@@ -176,6 +176,9 @@ export default () => {
                     </div>
                 </div>
             </div>
+            <div className="p-5 text-center text-muted">
+                Based on original work by <a href="https://github.com/paulhoughton/">Paul Houghton</a>. This page is a private copy of <a href="https://github.com/paulhoughton/mortgage">mortgage overpayment calculator</a>.
+            </div>
         </div>
     );
 };
