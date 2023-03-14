@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #137ad2;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.line {
+  fill: none;
+  stroke: #137ad2;
+  stroke-width: 1.5px;
+}
+
+.baseline {
+  stroke-dasharray: 4, 4;
+}
