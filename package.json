@@ -2,6 +2,7 @@
   "name": "mortgage-calculator",
   "homepage": "http://mungell.github.io/mortgage-calculator",
   "version": "0.1.0",
+  "private": "true",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "d3-axis": "^1.0.12",
